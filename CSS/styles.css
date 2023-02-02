@@ -1,6 +1,13 @@
+
+
 .inline-block {
     display: inline-block;
     vertical-align: top;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
   .logo {
@@ -12,16 +19,24 @@
   nav {
     width: 73%;
     padding: 1%;
+    background-color: bisque;
   }
 
   ul {
     width: 50%;
     margin-left: auto;
+    background-color: floralwhite;
   }
   
   .heroImg {
+    
     height: 600px;
     padding: 25px;
+    box-shadow: 5px 10px 18px #888888;
+    background-image: url("/images/KameHouse.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
  
   .content {
